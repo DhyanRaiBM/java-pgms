@@ -12,7 +12,7 @@ public class StudentModel{
     }
 
     public String getRollno() {
-        return rollno;
+         return rollno;
     }
     public void setRollno(String rollno) {
         this.rollno = rollno;

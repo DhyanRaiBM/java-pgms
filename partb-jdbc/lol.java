@@ -24,7 +24,7 @@ public class Partb1Jdbc {
             String sname, sadd, sclass, scourse, sql;
             Date dob;
 
-            do {
+            while(true) {
                 System.out.println("\nMenu");
                 System.out.println("-----------------");
                 System.out.println("1. Add student");
@@ -120,11 +120,11 @@ public class Partb1Jdbc {
                         break;
                     case 5:
                         System.out.println("Thank you");
-                        break;
+                        return;
                     default:
                         System.out.println("Wrong choice");
                 }
-            } while (choice != 5);
+            } 
         } catch (Exception e){
             System.out.println(e);
         }
